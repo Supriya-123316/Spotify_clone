@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player:Music For Everyone</title>
+    <link rel="stylesheet" href="spot.css">
+    <link rel="stylesheet" href="utility.css">
+</head>
+
+<body>
+    <nav class="border flex">
+        <div class="logo">
+            <img class="invert" src="images/logo.svg" alt="logo">
+        </div>
+        <div class="left-nav flex">
+            <button class="home bg-grey">
+                <img class="invert" src="images/home.svg" alt="home">
+            </button>
+            <div class="s hor-cen ver-cen bg-grey">
+                <img class="invert" src="images/search.svg" alt="search">
+                <input class="hor-cen ver-cen" type="text" placeholder="What do you want to play?">
+            </div>
+        </div>
+        <div class="right-nav flex ver-cen">
+            <button>Premium</button>
+            <button>Support</button>
+            <button>Download</button>
+            <div class="line"></div>
+            <div class="install flex">
+                <span class="flex">
+                    <img class="invert" src="images/down.svg" alt="download">
+                </span>
+                <span class="ins">Install App</span>
+            </div>
+            <div class="login">
+                <button>Sign Up</button>
+                <button class="log">Log in</button>
+            </div>
+        </div>
+    </nav>
+    <div class="main flex">
+        <div class="left border">
+            <div class="lmain bg-grey">
+                <header class="l flex">
+                    <div>
+                        <h2>Your Library</h2>
+                    </div>
+                    <button class="flex">
+                        <span><img class="invert" src="images/plus.svg" alt="plus"></span>
+                        <span>Create</span>
+                    </button>
+                </header>
+                <div class="l-sec">
+                    <section class="flex">
+                        <div class="flex">
+                            <span><b>Create your first playlist</b></span>
+                            <span>It's easy, we'll help you</span>
+                        </div>
+                        <button>
+                            <span>Create Playlist</span>
+                        </button>
+                    </section>
+                    <section class="flex">
+                        <div class="flex">
+                            <span><b>Let's find some podcast to follow</b></span>
+                            <span>We'll keep you updated on new episodes</span>
+                        </div>
+                        <button>
+                            <span>Browse Podcast</span>
+                        </button>
+                    </section>
+                </div>
+            </div>
+            <div class="footer flex bg-grey">
+                <div class="link">
+                    <a href="https://www.spotify.com/jp/legal/"><span>Legal</span></a>
+                    <a href="https://www.spotify.com/jp/privacy/"><span>Privacy Center</span></a>
+                    <a href="https://www.spotify.com/jp/legal/privacy-policy/"><span>Privacy Policy</span></a>
+                    <a href="https://www.spotify.com/jp/legal/cookies-policy/"><span>Cookies</span></a>
+                    <a href="https://www.spotify.com/jp/legal/privacy-policy/#s3"><span>About Ads</span></a>
+                    <a href="https://www.spotify.com/jp/accessibility/"><span>Accessibility</span></a>
+                </div>
+                <div>
+                    <button class="eng">
+                        <img class="invert" src="images/globe.svg" alt="globe">
+                        <span>English</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="right border flex">
+            <div class="rmain flex">
+                <section>
+                    <h1>Trending songs</h1>
+                    <div class="collection flex">
+                        <div class="card scard">
+                            <img alt="song">
+                            <div class="playbutton"><img id="1" class="invert playmusic" src="images/circle_play.svg">
+                            </div>
+                            <h2></h2>
+                            <p></p>
+                        </div>
+                        <div class="card scard">
+                            <img alt="song">
+                            <div class="playbutton"><img id="2" class="invert playmusic" src="images/circle_play.svg"></div>
+                            <h2></h2>
+                            <p></p>
+                        </div>
+                        <div class="card scard">
+                            <img alt="song">
+                            <div class="playbutton"><img id="3" class="invert playmusic" src="images/circle_play.svg">
+                            </div>
+                            <h2></h2>
+                            <p></p>
+                        </div>
+                        <div class="card scard">
+                            <img alt="song">
+                            <div class="playbutton" ><img id="4" class="invert playmusic" src="images/circle_play.svg">
+                            </div>
+                            <h2></h2>
+                            <p></p>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <h1>Recommended Songs</h1>
+                    <div class="collection flex">
+                        <div class="card scard">
+                            <img alt="song">
+                            <div class="playbutton"><img id="5" class="invert playmusic" src="images/circle_play.svg">
+                            </div>
+                            <h2></h2>
+                            <p></p>
+                        </div>
+                        <div class="card scard">
+                            <img alt="song">
+                            <div class="playbutton"><img id="6" class="invert playmusic" src="images/circle_play.svg">
+                            </div>
+                            <h2></h2>
+                            <p></p>
+                        </div>
+                        <div class="card scard">
+                            <img alt="song">
+                            <div class="playbutton"><img id="7" class="invert playmusic" src="images/circle_play.svg">
+                            </div>
+                            <h2></h2>
+                            <p></p>
+                        </div>
+                        <div class="card scard">
+                            <img alt="song">
+                            <div class="playbutton" ><img id="8" class="invert playmusic" src="images/circle_play.svg">
+                            </div>
+                            <h2></h2>
+                            <p></p>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <h1>Popular artists</h1>
+                    <div class="collection flex">
+                        <div class="card">
+                            <img src="https://i.scdn.co/image/ab67616100005174cb6926f44f620555ba444fca" alt="">
+                            <h2>Pritam</h2>
+                            <p>Artist</p>
+                        </div>
+                        <div class="card">
+                            <img src="https://i.scdn.co/image/ab67616100005174b19af0ea736c6228d6eb539c" alt="">
+                            <h2>A. R. Rahman</h2>
+                            <p>Artist</p>
+                        </div>
+                        <div class="card">
+                            <img src="https://i.scdn.co/image/ab676161000051745ba2d75eb08a2d672f9b69b7" alt="">
+                            <h2>Arijit Singh</h2>
+                            <p>Artist</p>
+                        </div>
+                        <div class="card">
+                            <img src="https://i.scdn.co/image/ab67616100005174c40600e02356cc86f0debe84" alt="">
+                            <h2>Atif Aslam</h2>
+                            <p>Artist</p>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <h1>Popular Radio</h1>
+                    <div class="collection flex">
+                        <div class="card">
+                            <img src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/4YRxDV8wJFPHPTeXepOstw/en"
+                                alt="">
+                            <p>With pritam, Shaarib Toshi, Jeet Ganngul and more</p>
+                        </div>
+                        <div class="card">
+                            <img src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/4fEkbug6kZzzJ8eYX6Kbbp/en-GB"
+                                alt="">
+                            <p>With Pritam, Ankit Tiwari, Shaarib Toshi and more</p>
+                        </div>
+                        <div class="card">
+                            <img src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/0oOet2f43PA68X5RxKobEy/en"
+                                alt="">
+                            <p>With A. R. Rahman, Arijit Singh, Atif Aslam and more</p>
+                        </div>
+                        <div class="card">
+                            <img src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/3gBKY0y3dFFVRqicLnVZYz/en"
+                                alt="">
+                            <p>With Vinod Rathod, Kumar Sanu, Udit Narayan and many more</p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+    <div class="playbar flex">
+        <div class="songinfo flex">
+            <img src="images/1.jpg" alt="Current Song">
+            <div class="songdetails">
+                <div class="now-title">Aaya Na Tu</div>
+                <div class="now-artists">Vishal & Shekhar</div>
+            </div>
+        </div>
+        <div class="songbuttons flex">
+            <div class="control flex">
+                <img id="prev" class="invert btns" src="images/play_prev.svg" alt="prev">
+                <img id="play" class="invert btns" src="images/play_on.svg" alt="play">
+                <img id="next" class="invert btns" src="images/play_next.svg" alt="next">
+            </div>
+            <div>
+                <input type="range" id="progressbar" value="0">
+            </div>
+        </div>
+        <div class="blank"></div>
+    </div>
+    <script src="spot.js"></script>
+</body>
+
+</html>
