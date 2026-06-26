@@ -1,0 +1,245 @@
+nav {
+    height: 60px;
+}
+
+button {
+    color: #b3b3b3;
+    background-color: transparent;
+    border: none;
+}
+.main{
+    height: 90vh;
+}
+.left-nav {
+    width: 55vw;
+    margin: 9px;
+    gap: 8px;
+}
+
+.home {
+    border-radius: 23px;
+    border: #333232;
+}
+
+.s {
+    width: 30vw;
+    border-radius: 25px;
+}
+
+.s img{
+        padding: 9px 2px 0px;
+}
+.logo img{
+    height: 55px;
+}
+
+input {
+    background-color: transparent;
+    color: white;
+    border: none;
+}
+
+.right-nav {
+    width: 45vw;
+    gap: 8px;
+    justify-content: space-between;
+}
+
+.line {
+    background-color: white;
+    width: 1px;
+    height: 25px;
+    margin: 16px;
+}
+
+.install {
+    text-decoration: none;
+    color: #b3b3b3;
+}
+
+.ins {
+    padding: 9px 0px
+}
+.login button:nth-child(2) {
+    height: 44px;
+    width: 89px;
+    background-color: white;
+    border-radius: 24px;
+    color: black;
+}
+.login button:nth-child(2):hover{
+    font-weight: bold;
+    height: 46px;
+}
+
+.left {
+    width: 25vw;
+    height: 83vh;
+    position: relative;
+}
+
+.l {
+    padding: 16px 16px 40px;
+    justify-content: space-between;
+    align-items: center;
+    height: 26px;
+}
+header button{
+    background-color: #333232;
+    border-radius: 25px;
+}
+.l span:last-child{
+        padding: 7px 0;
+}
+.l-sec{
+    max-height: 273px;
+    overflow:hidden scroll;
+}
+.l-sec section{
+    position: relative;
+    flex-direction: column;
+    background-color: #333232;
+    margin: 8px;
+    height: 150px;
+    border-radius: 12px;
+}
+.l-sec section div{
+    flex-direction: column;
+    padding: 19px;
+}
+.l-sec button{
+    margin: 11px;
+    bottom: 10px;
+    position: absolute;
+}
+.l-sec button span{
+    background-color: white;
+    border-radius: 18px;
+    border: 1px solid white;
+    padding: 9px;
+    color: black;
+}
+.footer{
+    flex-direction: column;
+    position: absolute;
+    gap: 25px;
+    font-size: 14px;
+    bottom: 0;
+    padding: 12px;
+    height: 170px;
+}
+.link{
+    padding: 8px;
+    margin: 8px;
+}
+.eng{
+    border: 1px solid white;
+    border-radius: 16px;
+    margin: 10px;
+}
+.eng span{
+    font-size: 16px;
+}
+.footer a{
+    padding: 13px;
+    color: #b3b3b3;
+    text-decoration: none;
+}
+.right {
+    position: relative;
+    width: 75vw;    
+    overflow:hidden scroll;
+    max-height: 78vh;
+    flex-direction: column;
+}
+.rmain{
+    flex-direction: column;
+}
+.card{
+    margin: 18px 30px;
+}
+.card img{
+    object-fit: contain;
+    height: 160px;
+    width: 175px;
+}
+.playbutton img{
+    height: 40px;
+    width: 40px;
+}
+.playbutton{
+    position: absolute;
+    display: flex;
+    border-radius: 20rem;
+    transform: translate(110px, -40px);
+    opacity: 0;
+    transition: 0.3s;
+}
+.card:hover .playbutton{
+    filter: invert(52%) sepia(98%) saturate(401%) hue-rotate(83deg) brightness(119%) contrast(101%);
+    transform: translate(110px, -50px);
+    opacity: 1;
+}
+.rmain section:nth-child(3) img{
+    width: 158px;
+    border-radius: 89px;
+}
+.rmain section:nth-child(3)  h2{
+      height: 14px;
+}
+.playbar{
+    position: fixed;
+    bottom: 0;
+    overflow: hidden;
+    background-color: black;
+    width: 100%;
+    height:11vh;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.songinfo img{
+    height: 65px;
+    width: 65px;
+    object-fit: cover;
+    align-items: center;
+}
+.songdetails{
+    margin-left: 6px;
+    margin-top: 8px;
+    font-size: 14px;
+}
+.now-title{
+    font-size:16px;
+}
+.songbuttons{
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+.control{
+    gap: 15px;
+    display: flex;
+    justify-content: center;
+}
+.btns{
+    cursor: pointer;
+}
+.btns:hover{
+    filter: invert(52%) sepia(98%) saturate(401%) hue-rotate(83deg) brightness(119%) contrast(101%);
+    transform: scale(1.2);
+}
+#progressbar{
+    cursor: pointer;
+    height: 3px;
+    width: 90vh;
+    appearance: none;
+    background-color: #444c56;;
+}
+input[type='range']::-webkit-slider-thumb{
+    appearance: none;
+    width: 9px;
+    height: 9px;
+    border-radius: 5px;
+    background-color: aliceblue;
+}
